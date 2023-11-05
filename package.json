@@ -1,0 +1,24 @@
+{
+  "name": "offloader",
+  "version": "1.0.0",
+  "description": "Lightweight module to offload tasks to the worker threads on node.js.",
+  "main": "./lib/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tornike-machitidze/offloader.git"
+  },
+  "keywords": [
+    "Worker-Threads",
+    "Threads",
+    "Offload"
+  ],
+  "author": "Tornike Machitidze",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/tornike-machitidze/offloader/issues"
+  },
+  "homepage": "https://github.com/tornike-machitidze/offloader#readme"
+}
