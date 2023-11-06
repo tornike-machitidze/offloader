@@ -30,6 +30,7 @@ jobs:
     needs: build
     runs-on: ubuntu-latest
     steps:
-      - run: npm publish
+      - run: npm publish --access public
+      - working-directory: offloader
         env:
           NODE_AUTH_TOKEN: ${{secrets.NPM_OFFLOADER_ACCESS_TOKEN}}
