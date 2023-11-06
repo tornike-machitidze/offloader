@@ -4,7 +4,7 @@
   "description": "Lightweight module to offload tasks to the worker threads on node.js.",
   "main": "./lib/index.js",
   "scripts": {
-    "test": "jest"
+    "test": "node test/test.js"
   },
   "repository": {
     "type": "git",
@@ -20,8 +20,5 @@
   "bugs": {
     "url": "https://github.com/tornike-machitidze/offloader/issues"
   },
-  "homepage": "https://github.com/tornike-machitidze/offloader#readme",
-  "devDependencies": {
-    "jest": "^29.7.0"
-  }
+  "homepage": "https://github.com/tornike-machitidze/offloader#readme"
 }
