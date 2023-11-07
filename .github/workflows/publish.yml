@@ -27,7 +27,7 @@ jobs:
       - uses: actions/setup-node@v3
         with:
           node-version: '20.x'
-          registry-url: https://registry.npmjs.org/@tornike-machitidze
+          registry-url: https://registry.npmjs.org/@tornike-machitidze/offloader
       - run: npm ci
       - run: npm publish --access public
         env:
