@@ -1,6 +1,6 @@
 {
   "name": "offloadman",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Lightweight module to offload tasks to the worker threads on node.js.",
   "main": "./lib/index.js",
   "scripts": {
