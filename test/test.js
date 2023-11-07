@@ -1,15 +1,7 @@
 const Offloader = require('../lib/index');
 
-const offloader = new Offloader();
+it('Check if instance has method offload and it is a function', () => {
+  const offloader = new Offloader();
 
-const task = () => {
-  for (let i = 0; i < 1e8; i++) { }
-
-  return { result: 342345 };
-};
-
-offloader.offload(task, (err, result) => {
-  if (err) return console.log(err);
-
-  console.log(result);
+  expect(typeof offloader.offload === 'function').toBe(true);
 });
